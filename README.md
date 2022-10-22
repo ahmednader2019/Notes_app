@@ -1,3 +1,3 @@
 # Notes_app
 
-<h3> Simple website for taking appp Created Using php & MySql & oop & pdo </h3>
+<h3> simple website for taking notes Created Using php & MySql & oop & pdo </h3>
