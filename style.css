@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+
+.new-note {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.new-note input,
+.new-note textarea {
+  font-family: Arial;
+  padding: 5px 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.note {
+  background-color: yellow;
+  color: black;
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  min-height: 100px;
+}
+.note .title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.note .title a {
+  color: black;
+}
+.note .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  border: none;
+}
+.note small {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin-top: 10px;
+  display: block;
+  text-align: right;
+  font-style: italic;
+  justify-content: center;
+}
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  display: flex; /* or display:grid */
+  justify-content: center;
+  margin: 4px;
+}
+button #new {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  justify-content: center;
+  border-radius: 8px;
+}
+button #update {
+  background-color: blue; /* red */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  justify-content: center;
+  border-radius: 8px;
+}
+button #delete {
+  background-color: tomato; /* red */
+  border: none;
+  color: white;
+  padding: 7px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* justify-content: center; */
+  border-radius: 8px;
+}
+.Success {
+  background-color: lightgreen;
+  padding: 1em;
+}
+
+.error {
+  background-color: tomato;
+  padding: 1em;
+}
